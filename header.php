@@ -81,7 +81,7 @@ if (isset($_SESSION['username'])) {
                                      
                                     
                                 } else {
-                                    echo "<li><a href='logout'><span class='glyphicon glyphicon-log-out'></span>Log out</a></li>";
+                                    echo "<li><a href='logout'><span class='glyphicon glyphicon-log-out'></span> Log out</a></li>";
                                 }
                                 ?>
                             </ul>
