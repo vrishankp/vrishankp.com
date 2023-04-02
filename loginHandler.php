@@ -7,9 +7,11 @@ $password = mysqli_real_escape_string($con, $_POST['password']);
 // Hidden method to salt and hash the password
 $password = saltAndHash($password);
 
-$query = "SELECT * FROM users WHERE username='$username' AND password='$password'";
+$query = "SELECT * FROM users WHERE username='$username'";
 $result = mysqli_query($con, $query);
-if($row = mysqli_fetch_array($result)) {
+$row = mysqli_fetch_array($result);
+
+if(passwordCheck($password, $row['password'])) {
     $_SESSION['username'] = $username;
     $_SESSION['loggedin'] = true;
     header('Location: https://www.vrishankp.com');

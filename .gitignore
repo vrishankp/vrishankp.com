@@ -3,3 +3,9 @@ conn.php
 
 # privacy related things
 secret.php
+
+# Mac
+.DS_STORE
+
+# PhpStorm
+.idea/
