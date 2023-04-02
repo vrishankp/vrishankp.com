@@ -12,7 +12,7 @@
                 I am currently dual majoring with a BS in Computer Science and a BS in Data Science. I will be graduating in May 2025.</p>
             <p>This website was entirely coded by me, Vrishank Paladugu, using HTML5, CSS, Bootstrap, and JavaScript for the frontend and PHP and SQL for the backend.</p>
             <p>This website shows some of my accomplishments and my skills in programming that I hope will impress you!</p>
-            <p>Access the code for this website on <a href="https://github.com/vrishankp/website" target="_blank">GitHub</a></p>
+            <p>Access the code for this website on <a href="https://github.com/vrishankp/vrishankp.com" target="_blank">GitHub</a></p>
         </div>
     </div>
 
