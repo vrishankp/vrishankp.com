@@ -1,0 +1,45 @@
+body {
+    background: #e6e6e6;
+}
+
+.content {
+    background: white;
+    max-width: 1000px;
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    min-height: 600px;
+}
+
+footer {
+    background: rgb(39, 60, 86);
+    min-height: 100px;
+}
+
+h2 {
+    color: rgb(91, 192, 222);
+}
+
+.footer {
+    color: lightgrey;
+    max-width: 1000px;
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    font-size: small;   
+}
+
+nav {
+    background: rgb(54, 82, 120) !important;
+}
+
+#navbar {
+    max-width: 1000px;
+    margin: 0px auto 0px auto;
+}
+
+ul.nav a {
+    color: white !important;
+}
+
+ul.nav a:hover {
+    background: rgb(42, 42, 89) !important;
+}
