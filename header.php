@@ -68,6 +68,7 @@ if (isset($_SESSION['username'])) {
                                         <li><a href="bdpa"  id="dropdown">BDPA</a></li>
                                         <li><a href="edx"  id="dropdown">EdX</a></li>
                                         <li><a href="python"  id="dropdown">Python</a></li>
+                                        <li><a href = "poker" id="dropdown">Poker Simulator</li>
                                     </ul>
                                 </li>
         
