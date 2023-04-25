@@ -1,4 +1,6 @@
 <?php
+include 'adminOnly.php';
+
 $start_time = microtime(true);
 
 $password = "mysecurepassword";
