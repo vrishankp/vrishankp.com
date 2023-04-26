@@ -9,7 +9,7 @@ include 'header.php';
             <div class = 'col-sm-8'>
             <hr>";
             
-    $query = "SELECT * FROM blogData";
+    $query = "SELECT * FROM blogData ORDER BY date DESC, time DESC";
     $result = mysqli_query($con, $query);
     while($row = mysqli_fetch_array($result)){
         $blogId = $row['blogId'];
