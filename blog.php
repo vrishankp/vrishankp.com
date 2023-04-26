@@ -20,13 +20,29 @@ include 'header.php';
         
         $fileName = "blog/".md5($blogId).".php";
         $fileNameNoPhp = "blog/".md5($blogId);
-        
+
+        $postTimestamp = strtotime("$date $time");
+
+        // Calculate the timestamp for the current time
+        $nowTimestamp = time();
+
+        // Calculate the difference between the post timestamp and the current timestamp
+        $timeDiff = $nowTimestamp - $postTimestamp;
+
+        // Check if the post is less than a day old
+        if($timeDiff < 86400) { // 86400 seconds in a day
+            $badge = '<span class="badge">New!</span>';
+        } else {
+            $badge = '';
+        }
+
         $short = substr($content, 0, 80);
         ?>
                         <div class="panel panel-primary">
                           <div class="panel-heading">
                             <h1 class="panel-title">
                               <a data-toggle="collapse" href="#collapse<?php echo $blogId?>"><?php echo $title?></a>
+                                <?php echo $badge;?>
                             </h1>
                             <div style = "margin-top: 10px;"><?php echo $date?></div>
                           </div>
