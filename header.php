@@ -23,14 +23,7 @@ if (isset($_SESSION['username'])) {
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKGGZCP9YE"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-MKGGZCP9YE');
-    </script>
+
     
      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
