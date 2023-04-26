@@ -31,7 +31,7 @@ include 'header.php';
 
         // Check if the post is less than a day old
         if($timeDiff < 86400) { // 86400 seconds in a day
-            $badge = '<span class="badge">New!</span>';
+            $badge = '<span class="badge pull-right">New!</span>';
         } else {
             $badge = '';
         }
