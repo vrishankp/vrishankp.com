@@ -9,3 +9,6 @@ secret.php
 
 # PhpStorm
 .idea/
+
+# htacess
+.htaccess
