@@ -34,7 +34,7 @@
                                 <i class="fa fa-instagram white-text"> </i>
                             </a>
                             <a rel="me" href="https://mastodon.social/@vrishankp">
-                                <i class="bi bi-mastodon"></i>
+                                <i class="fa fa-mastodon"></i>
                             </a>
                             <a href = "https://www.github.com/vrishankp" target="_blank" class = "github-ic">
                                 <i class="fa fa-github white-text"></i>
