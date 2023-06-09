@@ -25,19 +25,19 @@
                         </p>
                         <div class="text-center text-md-right">
                             <a href = "https://twitter.com/vrishankp_" target="_blank" class="tw-ic">
-                                <i class="fa fa-twitter white-text mr-4"> </i>
+                                <i class="fab fa-twitter white-text mr-4"> </i>
                             </a>
                             <a href = "https://www.linkedin.com/in/vrishank-paladugu/" target="_blank" class="linkedin-ic">
-                                <i class="fa fa-linkedin white-text mr-4"></i>
+                                <i class="fab fa-linkedin white-text mr-4"></i>
                             </a>
                             <a href = "https://instagram.com/vrishankp_" target="_blank" class="ins-ic">
-                                <i class="fa fa-instagram white-text"> </i>
+                                <i class="fab fa-instagram white-text"> </i>
                             </a>
                             <a rel="me" href="https://mastodon.social/@vrishankp">
                                 <i class="fab fa-mastodon"></i>
                             </a>
                             <a href = "https://www.github.com/vrishankp" target="_blank" class = "github-ic">
-                                <i class="fa fa-github white-text"></i>
+                                <i class="fab fa-github white-text"></i>
                             </a>
                         </div>
                     </div>
