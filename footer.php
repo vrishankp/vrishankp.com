@@ -33,12 +33,12 @@
                             <a href = "https://instagram.com/vrishankp_" target="_blank" class="ins-ic">
                                 <i class="fa fa-instagram white-text"> </i>
                             </a>
-                            <a href = "https://mastodon.social/@vrishankp" target = "_blank">
+                            <a rel="me" href="https://mastodon.social/@vrishankp">
                                 <i class="bi bi-mastodon"></i>
                             </a>
-			    <a href = "https://www.github.com/vrishankp" target="_blank" class = "ins-ic">
-				<i class="bi bi-github"></i>
-			    </a>
+                            <a href = "https://www.github.com/vrishankp" target="_blank" class = "github-ic">
+                                <i class="fa fa-github white-text"></i>
+                            </a>
                         </div>
                     </div>
                     <div class="col-sm-4">
