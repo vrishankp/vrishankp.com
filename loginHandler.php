@@ -21,6 +21,10 @@ if (mysqli_num_rows($result) == 0){
 $row = mysqli_fetch_array($result);
 
 if(passwordCheck($password, $row['password'])) {
+    $status = sendMail($username, $_SERVER['REMOTE_ADDR']);
+    if (!$status){
+        header('Location: https://www.vrishankp.com');
+    }
     $_SESSION['username'] = $username;
     $_SESSION['loggedin'] = true;
     header('Location: https://www.vrishankp.com');
