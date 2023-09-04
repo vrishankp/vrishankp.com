@@ -21,9 +21,6 @@
                             <a class="dark-grey-text" style="color: lightgrey" href="contact">Contact</a>
                         </p>
                         <p>
-                            <a class="dark-grey-text" style="color: lightgrey" href="gallery">Gallery</a>
-                        </p>
-                        <p>
                             <a class="dark-grey-text" style="color: lightgrey" href="https://github.com/vrishankp/pgp-public-key/">PGP Public Key</a>
                         </p>
                         <div class="text-center text-md-right">
