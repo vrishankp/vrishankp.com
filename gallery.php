@@ -54,7 +54,7 @@ include 'header.php';
         </div>
         <div class = "col-sm-5" style = "padding-left: 5px !important; padding-bottom: 5px; padding-top: 5px;">
             <a href = "gallery/71010026.jpg" target="_blank">
-                <img src = "gallery/71010026.jpg" alt="fountain" style = "width: 100%; height: auto;">
+                <img src = "gallery/71010026.jpg" class = "image" alt="fountain" style = "width: 100%; height: auto;">
             </a>
             <div class="middle">
                 <div class="text"> </div>
@@ -75,7 +75,7 @@ include 'header.php';
         <div class = "col-sm-10">
             <div align = "center" class = "bw" style = "padding-bottom: 5px; padding-top: 5px;">
                 <a href = "gallery/71010010.jpg" target="_blank">
-                    <img src = "gallery/71010010.jpg" alt="bw" style = "max-width: 100%; height: auto; vertical-align: middle;">
+                    <img src = "gallery/71010010.jpg" class = "image" alt="bw" style = "max-width: 100%; height: auto; vertical-align: middle;">
                 </a>
             </div>
             <div class="middle">
