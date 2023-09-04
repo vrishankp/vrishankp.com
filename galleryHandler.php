@@ -56,8 +56,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["image"])) {
     imagedestroy($image);
     imagedestroy($newImage);
 
-    //$query = "INSERT INTO gallery (date, title, camera, lens, notes, landscape, film, takenAt, location, smallLoc) VALUES('".$date."','".$title."','".$camera."','".$lens."','".$notes."','".$orient."','".$film."','".$takenAt."','".$location."''".$newFilename."')";
-    //$result = mysqli_query($con, $query);
+    $query = "INSERT INTO gallery (date, title, camera, lens, notes, landscape, film, takenAt, location, smallLoc) VALUES('".$date."','".$title."','".$camera."','".$lens."','".$notes."','".$orient."','".$film."','".$takenAt."','".$location."''".$newFilename."')";
+    $result = mysqli_query($con, $query);
 
     header('Location: galleryInput.php');
 } else {
