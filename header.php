@@ -48,6 +48,7 @@ if (isset($_SESSION['username'])) {
                                     echo "<li><a href='about'>About</a></li>";
                                     echo "<li><a href='blog'>Blog</a></li>";
                                     echo "<li><a href='contact'>Contact Me</a></li>";
+                                    echo "<li><a href='gallery'>Gallery</a></li>";
                                     echo "<li><a href='resume.pdf'>Résumé</a></li>";
                                 } else {
                                     echo "<li><a href='blogInput'>Input into Blog</a></li>";
