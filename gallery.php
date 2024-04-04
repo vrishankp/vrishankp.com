@@ -36,7 +36,7 @@ include 'header.php';
         <div class = "col-sm-1" style = "padding: 0px !important;"></div>
         <div class = "col-sm-5" style = "padding-right: 5px !important; padding-bottom: 5px; padding-top: 5px;">
             <div class = "cont">
-                <a href = "gallery/hoop.jpg" target="_blank">
+                <a href = "gallery/hoop.jpeg" target="_blank">
                     <img src = "gallery/small_hoop.jpg" class = "image" alt="basketball" style = "width: 100%; height: auto;">
                 </a>
                 <div class="middle">
@@ -77,7 +77,7 @@ include 'header.php';
         <div class = "col-sm-10">
             <div class = "cont">
                 <div align = "center" class = "bw" style = "padding-bottom: 5px; padding-top: 5px;">
-                    <a href = "gallery/bench.jpg" target="_blank">
+                    <a href = "gallery/bench.jpeg" target="_blank">
                         <img src = "gallery/small_bench.jpg" class = "image" alt="bench" style = "max-width: 100%; height: auto; vertical-align: middle;">
                     </a>
                 </div>

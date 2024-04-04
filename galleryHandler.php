@@ -25,9 +25,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["image"])) {
         $landscape = 0;
     }
 
-    rename($location, "gallery/".pathinfo($location, PATHINFO_FILENAME) . ".jpeg");
+    rename($location, "gallery/".pathinfo($location, PATHINFO_FILENAME) . ".jpg");
 
-    $location = "gallery/".pathinfo($location, PATHINFO_FILENAME) . ".jpeg";
+    $location = "gallery/".pathinfo($location, PATHINFO_FILENAME) . ".jpg";
     echo "<br><br><br><br>Location: $location";
 
     $image = imagecreatefromjpeg($location);
