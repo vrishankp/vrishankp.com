@@ -8,10 +8,6 @@ include 'header.php';
                 <h2>Photos</h2>
             </center>
             <hr>
-       
-            <center>
-                <p>Here are some pictures that I took on 35mm film</p>
-            </center>
 
             <div align = "center" class = "cont" style = "padding-bottom: 5px; padding-top: 5px;">
                 <a href = "gallery/tower.jpeg" target="_blank">
